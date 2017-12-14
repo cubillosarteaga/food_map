@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<title>Food Map</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+  <div id="splash">
+    <h1>FOOD MAP</h1>
+  </div>
+  <header>
+    <div class="container">
+      <div class="col s12">
+        <h2>Food Map</h2>
+        <div class="line"></div>
+      </div>
+    </div>
+  </header>
+  <section class="frame">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 ">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d26634.411924913627!2d-70.67328510413653!3d-33.4414509196794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes+santiago+centro!5e0!3m2!1ses-419!2scl!4v1513123338093" width="300" height="140" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h5>Comida cerca de ti</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s10">
+          <input type="search" id="input-search" placeholder="Escribe tu opción">
+        </div>
+        <div class="col s1">
+          <i class="small material-icons">search</i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <h6>sushi - hamburguesas - pizza - vegetariana</h6>
+        </div>
+        <div class="col s12 table">
+          <ul class="list-group" id="list">
+            <li class="list-group-item">
+              <h6>Sushi</h6>
+                
+                  <div id="sushi"> 
+          
+                    <img href="#modal1" src="assets/img/3.jpg" width="150" height="90" 
+                    class="modal-trigger">
+                
+                <div id="modal1" class="modal">
+                  <div class="modal-content">
+                    <h4>Sushi</h4>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d26634.411924913627!2d-70.67328510413653!3d-33.4414509196794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes+santiago+centro!5e0!3m2!1ses-419!2scl!4v1513123338093" width="200" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
+                      <p>Rosas 2747, santiago, Santiago, Región Metropolitana</p>
+                      <p>Entrega a domicilio - Tarjetas de crédito - Ambiente relajado</p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat buton">Pedir ahora</a>
+                  </div>
+              </div>
+                <img href="#modal1" src="assets/img/4.jpg" width="150" height="90" class="modal-trigger">
+              </div>
+            </li>
+            <li class="list-group-item">
+              <h6>Pizza</h6>
+              <div id="pizza"> 
+                <img src="assets/img/p.jpg" width="150" height="90">
+                <img src="assets/img/i.jpg" width="150" height="90">
+            </div>
+          </li>
+          <li class="list-group-item">
+              <h6>Hamburguesas</h6>
+              <div id="hamburguesas"> 
+                <img src="assets/img/h.png" width="150" height="90">
+                <img src="assets/img/a.jpg" width="150" height="90">
+            </div>
+          </li>
+          <li class="list-group-item">
+              <h6>Vegetariana</h6>
+              <div id="hamburguesas"> 
+                <img src="assets/img/v.jpg" width="150" height="90">
+                <img src="assets/img/g.jpg" width="150" height="90">
+            </div>
+          </li>
+          </ul>
+        </div>
+      </div>  
+    </div>  
+  </section>
+  
+<!-- js -->
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="assets/js/script.js"></script>	
+</body>
+</html>
